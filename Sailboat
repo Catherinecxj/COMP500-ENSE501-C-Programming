@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main(void){
+	printf("             +\n");
+	printf("            /|\n");
+	printf("           / |+\n");
+	printf("          /  || \\\n");
+	printf("         /   ||  \\\n");
+	printf("        /    ||   \\\n");
+	printf("       /     ||    \\\n");
+	printf("       +-----++----+\n");
+	printf("    _________%%|__________+\n");
+	printf("    \\         ENDEAVOUR /\n");
+	printf("~~~~~\\________________ /~~~~~~\n");
+
+	return 0;
+}
