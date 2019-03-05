@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main(void)
+{
+	int x = -1;
+
+	printf("Put is a number x: ");
+	scanf("%d", &x);
+
+	printf("2*x is %d\n", x * 2);
+	printf("3*x is %d\n", x * 3);
+	printf("4*x is %d\n", x * 4);
+	printf("5*x is %d\n", x * 5);
+	printf("6*x is %d\n", x * 6);
+	printf("7*x is %d\n", x * 7);
+	printf("8*x is %d\n", x * 8);
+	printf("9*x is %d\n", x * 9);
+	printf("10*x is %d\n", x * 10);
+	printf("11*x is %d\n", x * 11);
+	printf("12*x is %d\n", x * 12);
+
+	return 0;
+}
