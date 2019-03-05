@@ -1,0 +1,35 @@
+#include <stdio.h>
+
+int main(void) {
+
+	printf("Please enter five whole numbers:\n\n");
+
+	int first;
+	int second;
+	int third;
+	int fourth;
+	int fifth;
+
+
+
+
+	printf("First number: ");
+	scanf("%d",&first);
+	printf("Second number: ");
+	scanf("%d",&second);
+	printf("Third number: ");
+	scanf("%d",&third);
+	printf("Fourth number: ");
+	scanf("%d",&fourth);
+	printf("Fifth number: ");
+	scanf("%d",&fifth);
+
+	float average = (first + second + third + fourth + fifth) / 5.0f;
+
+	printf("\nThe average of these five numbers is: %f\n", average);
+
+
+	return 0;
+
+
+}
