@@ -1,0 +1,52 @@
+#include <stdio.h>
+
+int main(void){
+
+	int Journal = 1;
+	int Test1 = 1;
+	int Test2 = 1;
+	int Test3 = 1;
+	int Exam = 1;
+
+	printf("COMP500/ENSE501 Result Calculator:\n");
+	printf("-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=\n\n");
+
+	printf("Enter the score (out of 100) for the Reporting Journal: "); 
+	scanf("%d",&Journal);
+	printf("Enter the score (out of 100) for the Practical Test 1: ");
+	scanf("%d",&Test1);
+	printf("Enter the score (out of 100) for the Practical Test 2: ");
+	scanf("%d",&Test2);
+	printf("Enter the score (out of 100) for the Practical Test 3: ");
+	scanf("%d",&Test3);
+	printf("Enter the score (out of 100) for the Final Practical Exam: ");
+	scanf("%d",&Exam);
+
+	printf("\nCalculating...\n\n");
+
+	float JournalCon = Journal*0.15f;
+	float Test1Con = Test1*0.10f;
+	float Test2Con = Test2*0.10f;
+	float Test3Con = Test3*0.15f;
+	float ExamCon = Exam*0.5f;
+
+
+	printf("Reporting Journal (worth 15%) contributes: %f\n",JournalCon);
+	printf("Practical Test 1 (worth 10%) contributes: %f\n",Test1Con);
+	printf("Practical Test 2 (worth 10%) contributes: %f\n",Test2Con);
+	printf("Practical Test 3 (worth 15%) contributes: %f\n",Test3Con);
+	printf("Final Practical Exam (worth 50%) contributes: %f\n\n",ExamCon);
+
+	float total = JournalCon + Test1Con + Test2Con + Test3Con + ExamCon;
+	printf("Overall result total: %f%%\n\n",total);
+
+	printf("Remember, to pass the paper, a student must achieve:\n");
+	printf("   - At least 80%% attendance and participation in the\n");
+	printf("     individual's scheduled lab tutorial stream, AND\n");
+	printf("   - A minimum mark of 40%% for the Final Practical Exam, AND\n");
+	printf("   - A minimum C- (50%%) overall grade.\n");
+
+
+	return 0;
+
+}
