@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main(void){
+
+	int sec;
+
+
+	printf("How many seconds late? ");
+	scanf("%d",&sec);
+
+	int min = sec / 60;
+	int second = sec % 60;
+
+	printf("The student was %d minutes and %d seconds late.\n",min,second);
+
+
+	return 0;
+
+}
