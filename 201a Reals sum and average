@@ -1,0 +1,38 @@
+#include<stdio.h>
+
+int main(void){
+
+	float Numberone = 1.0f;
+	float Numbertwo = 1.0f;
+	float Numberthree = 1.0f;
+	float Numberfour = 1.0f;
+	float Numberfive = 1.0f;
+	float Numbersix = 1.0f;
+	
+
+	printf("Please enter six real numbers:\n\n");
+
+	printf("Number 1? ");
+	scanf("%f", &Numberone);
+	
+	printf("Number 2? ");
+	scanf("%f", &Numbertwo);
+	printf("Number 3? ");
+	scanf("%f", &Numberthree);
+	printf("Number 4? ");
+	scanf("%f", &Numberfour);
+	printf("Number 5? ");
+	scanf("%f", &Numberfive);
+	printf("Number 6? ");
+	scanf("%f", &Numbersix);
+
+	float sum = Numberone + Numbertwo + Numberthree + Numberfour + Numberfive + Numbersix;
+	float average = sum / 6;
+	printf("\nThe sum is: %.2f\n", sum);
+	printf("The average is: %.2f\n", average);
+	
+
+	return 0;
+
+
+}
