@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main(void){
+
+	float Fahrenheit = 1.0f;
+	
+
+	printf("+-----------------------+\n");
+	printf("| Temperature Converter |\n");
+	printf("+-----------------------+\n\n");
+
+	printf("Please enter a temperature in Fahrenheit: ");
+	scanf("%f", &Fahrenheit);
+
+	printf("\nConverting...\n\n");
+	float Celsius = (Fahrenheit - 32)*5/9;
+	
+
+	printf("%.6f degrees Fahrenheit is the same as...\n",Fahrenheit);
+	printf("%f degrees Celsius.\n",Celsius);
+
+	return 0;
+
+
+}
