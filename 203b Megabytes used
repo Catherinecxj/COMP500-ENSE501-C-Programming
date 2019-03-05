@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main(void){
+
+	int mega;
+
+	printf("How many megabytes have you used thus far? ");
+	scanf("%d",&mega);
+
+	int left = 1500 - mega;
+	printf("\nYou have %d megabytes left!!!\n",left);
+
+
+	return 0;
+
+
+
+}
