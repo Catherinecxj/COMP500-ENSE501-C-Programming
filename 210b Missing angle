@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main(void){
+
+	printf("A triangle has three internal angles...\n\n");
+
+	int angle1;
+	int angle2;
+
+	printf("Please enter the first angle: ");
+	scanf("%d", &angle1);
+	printf("Please enter the second angle: ");
+	scanf("%d", &angle2);
+
+	printf("\nCalculating...\n");
+
+	int angle3 = 180 - angle1 - angle2;
+	printf("The third angle is: %d degrees\n", angle3);
+
+
+	return 0;
+}
