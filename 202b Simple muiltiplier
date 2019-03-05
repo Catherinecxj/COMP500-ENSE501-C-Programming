@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main(void){
+	
+	int number1;
+	int number2;
+
+	printf("Please enter a whole number: ");
+	scanf("%d",&number1);
+	printf("Please enter another whole number: ");
+	scanf("%d",&number2);
+	int mul = number1*number2;
+	printf("%d times %d is:%d \n",number1,number2,mul);
+
+	return 0;
+
+}
