@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main(void)
+{
+	float a = 0.0f;
+	float b = 0.0f;
+	float c = 0.0f;
+
+	printf("What is the value of a? ");
+	scanf("%f", &a);
+	printf("What is the value of b? ");
+	scanf("%f", &b);
+	printf("What is the value of c? ");
+	scanf("%f", &c);
+
+	float d = a + b + c;
+	float e = d / 3.0f;
+
+	printf("The average of the sum is: %f\n", e);
+
+	return 0;
+}
