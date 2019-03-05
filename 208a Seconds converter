@@ -1,0 +1,17 @@
+#include<stdio.h>
+
+int main(void){
+	int sec = 1;
+
+	printf("Number of seconds? ");
+	scanf("%d", &sec);
+
+	int hour = sec / 3600;
+	int remainder = sec % 3600;
+	int min = remainder / 60;
+	sec = remainder % 60;
+	
+	printf("\n\n%d hour(s), %d minutes(), %d seconds().\n", hour, min, sec);
+
+	return 0;
+}
