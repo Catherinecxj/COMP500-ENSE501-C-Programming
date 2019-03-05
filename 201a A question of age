@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main(void){
+	int x = 1;
+	printf("What is your age? ");
+	scanf("%d", &x);
+	printf("\nYou are %d years old.\n", x);
+
+	return 0;
+
+
+
+
+
+}
