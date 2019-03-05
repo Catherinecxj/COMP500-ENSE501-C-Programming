@@ -1,0 +1,14 @@
+#include<stdio.h>
+
+int main(void){
+
+	int length = 1;
+	printf("What is the length of one side? ");
+	scanf("%d", &length);
+	length *= 4;
+	printf("\nThe square's perimeter is: %d\n",length);
+	length = (length / 4)*(length/4);
+	printf("\nThe square's area is: %d\n",length);
+
+	return 0;
+}
