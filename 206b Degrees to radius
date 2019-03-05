@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main(void){
+
+	float degree;
+	float const PI = 3.14159f;
+
+
+	printf("Degrees? ");
+	scanf("%f", &degree);
+	printf("Converting...\n");
+
+	float radians = degree*PI / 180;
+
+	printf("%f radians",radians);
+
+	return 0;
+}
