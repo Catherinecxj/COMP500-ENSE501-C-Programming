@@ -1,0 +1,14 @@
+#include<stdio.h>
+
+int main(void){
+
+	char color[10];
+
+	printf("What is your favourite colour? ");
+	scanf("%s",&color);
+	printf("You like the colour %s.\n",color);
+
+
+	return 0;
+
+}
