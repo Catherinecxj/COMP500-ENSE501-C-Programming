@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+int main(void){
+
+	srand(time(0));
+	int die = (rand() % 20) + 1;
+
+	printf("D20 Dice Roller:\n");
+	printf("----========----\n\n");
+
+	printf("The first die rolls the value: %d\n\n",die);
+
+	printf("Then...\n\n");
+
+	printf("The second die rolls the value:%d\n",die);
+
+	return 0;
+
+
+
+
+}
