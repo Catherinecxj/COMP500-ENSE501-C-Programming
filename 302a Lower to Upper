@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include <ctype.h>
+
+
+
+int main(void){
+
+	char lower;
+
+
+	printf("=================================\n");
+	printf("Lowercase to Uppercase Converter:\n");
+	printf("=================================\n");
+
+	printf("Please input a lowercase letter: ");
+	scanf("%c", &lower);
+	
+	printf("The uppercase version is %c\n", toupper(lower));
+
+	printf("The ASCII value of %c is %d in base-10.\n", lower, lower);
+	printf("The ASCII value of %c is %d in base-10\n", toupper(lower), toupper(lower));
+	
+
+
+	return 0;
+}
