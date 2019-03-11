@@ -1,0 +1,37 @@
+#include<stdio.h>
+
+int main(void){
+
+	float number1;
+	float number2;
+	float number3;
+	float number4;
+	float number5;
+
+	printf("Please enter five real numbers: \n\n");
+	printf("First number: ");
+	scanf("%f",&number1);
+	printf("Second number: ");
+	scanf("%f",&number2);
+	printf("Third number: ");
+	scanf("%f",&number3);
+	printf("Fourth number: ");
+	scanf("%f",&number4);
+	printf("Fifth number: ");
+	scanf("%f",&number5);
+
+	printf("\nThe user entered:\n\n");
+
+	printf("%.6f then,\n", number1);
+	printf("%.6f then,\n", number2);
+	printf("%.6f then,\n", number3);
+	printf("%.6f then,\n", number4);
+	printf("%.6f then,\n\n", number5);
+
+	float ave = (number1 + number2 + number3 + number4 + number5) / 5.0f;
+
+	printf("The average of these five numbers is: %.6f\n",ave);
+
+	return 0;
+
+}
