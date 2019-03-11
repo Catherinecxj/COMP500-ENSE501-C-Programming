@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <math.h>
+
+int main(void){
+
+	float base;
+
+	printf("Please enter a base: ");
+	scanf("%f", &base);
+
+	printf("\nThe powers of 2 are:\n\n");
+	
+
+
+	for (int i = 0; i < 9; i++){
+		float pow = powf(base, (float)i);
+		printf("%d ^ %d is %d\n", (int)base,i,(int)pow);
+
+	}
+	
+
+	return 0;
+}
