@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+int main(void){
+
+	srand(time(0));
+	int side;
+
+	printf("How many sides are on the dice? ");
+	scanf("%d", &side);
+
+	
+
+	printf("\nRolling three 20-sided dice...\n\n");
+
+	printf("The first dice rolls... %d\n\n", rand() % side + 1);
+
+	printf("The second dice rolls... %d\n\n", rand() % side + 1);
+
+	printf("The third dice rolls... %d\n", rand() % side + 1);
+
+
+
+
+}
