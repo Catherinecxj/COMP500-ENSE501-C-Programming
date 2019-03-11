@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+int main(void){
+
+	srand(time(0));
+	
+
+
+	printf("Dice1 Dice2 Dice3 Dice4 Dice5\n");
+	printf("+---+ +---+ +---+ +---+ +---+\n");
+	printf("| %d | | %d | | %d | | %d | | %d |\n", 
+		(rand() % 5) + 1, (rand() % 5) + 1, (rand() % 5) + 1, 
+		(rand() % 5) + 1, (rand() % 5) + 1);
+	printf("+---+ +---+ +---+ +---+ +---+\n");
+
+
+
+	return 0;
+
+
+
+}
