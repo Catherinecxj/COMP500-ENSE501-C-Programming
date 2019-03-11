@@ -1,0 +1,14 @@
+#include<stdio.h>
+
+int main(void){
+
+	char letter;
+
+	printf("Please input a letter, digit or symbol : ");
+	scanf("%c", &letter);
+
+	printf("\nThe ASCII value for E in base-10 is %d,\n",letter);
+	printf("The ASCII value for E in base-16 is 0x%x\n",letter);
+
+	return 0;
+}
