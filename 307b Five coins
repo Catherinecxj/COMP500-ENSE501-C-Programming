@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+int main(void){
+
+	srand(time(0));
+	
+
+	printf("Coin1 Coin2 Coin3 Coin4 Coin5\n");
+	printf("+---+ +---+ +---+ +---+ +---+\n");
+	printf("| %d | | %d | | %d | | %d | | %d |\n",
+		rand() % 2, rand() % 2, rand() % 2, rand() % 2, 
+		rand() % 2);
+	printf("+---+ +---+ +---+ +---+ +---+\n");
+	printf("Key: Heads = 0, Tails = 1.\n");
+
+	return 0;
+
+}
